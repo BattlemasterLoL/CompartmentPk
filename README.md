@@ -60,6 +60,9 @@ This section of the program consists of a $4 \times 4$ grid of boxes to enter nu
 
 This section of the program consists of 4 boxes to enter the values of the known initial conditions of each of the compartments. These values must be numarical and may contain desimal values. The order of the initial condition boxes are with the top being the first compartment and assinding in order as you move down. If the number of compartments is less than 4 you do not need to enter values into the extra boxes.
 
+### Time Settings
+This secion of the program consists of 3 boxes to enter the start time, end time, and time between input (skip) of molecules into compartments. The start time or initial is the time value where the plot time will begin. The end time or final is where the plot time will end. If multiple inputs of molecules is not occuring leave the skip box blank.
+
 ### Run Simulation
 
 This button is to be pressed after all values in the previous sections are filled out. By pressing this putton the ODE will be solved for time values from 0-20 and a plot will be created in a new window. This plot may then be saved by pressing the save icon in the plot window.
