@@ -48,7 +48,7 @@ Terminal must be active in the same directory as the python program to launch.
 
 For windows users a compiled app is availible [here](https://github.com/BattlemasterLoL/CompartmentPk/releases). The program may also be launched using ther terminal command above.
 
-### Windows
+### macOS
 
 For macOS users a compiled app is availible [here](https://github.com/BattlemasterLoL/CompartmentPk/releases). The program may also be launched using ther terminal command above.
 
