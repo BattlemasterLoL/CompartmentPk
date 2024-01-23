@@ -2,7 +2,7 @@
 
 Compartment ODE solver is a tool focused in solving molecule transfer between compartments problems that are part of the University of Utah BME 4001 - bioTransport class. In using this tool known data can be entered to create a concentration vs time plot and solve for additional data values. This program is designed to solve compartment ODE's in the form:
 
-$$ \frac{d\vec{C}}{dt} + \overline{m}\,\vec{C} = \vec{F} \tag {1}$$
+$$ \frac{d\vec{C}}{dt} + \overline{m}\,\vec{C} = \vec{F} \tag {1} $$
 
 and will output a concentration vs time plot. The m matrix ($\,\overline{m}\,$) is a ratio of the concentration coefficents ($\,k_{ij}\,$) and compartment volumes ($\,V\,$) in the form $n \times n$ matrix in the form:
 
@@ -18,7 +18,9 @@ m_{41} & m_{42} & m_{43} & m_{44}\\
 $$
 
 The constants $a_n$ and $\alpha_n$ values in the equation:
-$$ C(t) = a_1 e^{-\alpha_1 t} + a_2 e^{-\alpha_2 t} + ... + a_n e^{\alpha_n t} \tag {3}$$
+
+$$ C(t) = a_1 e^{-\alpha_1 t} + a_2 e^{-\alpha_2 t} + ... + a_n e^{\alpha_n t} \tag {3} $$
+
 Eigenvalues and eigenvectors additionally solved and are populated in the extra data window with the $a_n$ and $\alpha_n$ values.
 
 Required Modules:
