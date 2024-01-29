@@ -39,7 +39,7 @@ Required Modules:
 Launch python program from ther terminal with:
 
 ```
-python comp_ODE_solver.py
+python CompartmentPk.py
 ```
 
 Terminal must be active in the same directory as the python program to launch.
