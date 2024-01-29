@@ -1,4 +1,4 @@
-# Compartment ODE Solver
+# CompartmentPk Solver
 
 Compartment ODE solver is a tool focused in solving molecule transfer between compartments problems that are part of the University of Utah BME 4001 - bioTransport class. In using this tool known data can be entered to create a concentration vs time plot and solve for additional data values. This program is designed to solve compartment ODE's in the form:
 
